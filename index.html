@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/tic-tac-toe.ico" type="image/x-icon">
+    <title>X and O Duel: The Ultimate Tic Tac Toe Challenge</title>
+</head>
+
+<body>
+    <div id="wrapper"
+        class="bg-[url('./assets/gradient-bg.jpg')] w-screen h-screen bg-cover grid place-items-center overflow-hidden">
+        <p id="game-info"
+            class="text-white absolute left-1/2 top-[3rem] translate-x-[-50%] bg-white font-Roboto bg-opacity-[0.15] rounded-xl border-[1px] border-white px-8 py-2 transition-all">
+        </p>
+
+        <div id="tic-tac-toe"
+            class="max-w-[20rem] w-11/12 grid aspect-square rounded-[1rem] bg-white bg-opacity-[0.15] border-[1.5px] grid-cols-3 p-2 cursor-pointer">
+            <div
+                class="box box1 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-r-2 border-b-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box2 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-r-2 border-b-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box3 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-b-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box4 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-r-2 border-b-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box5 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-r-2 border-b-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div font-Roboto
+                class="box box6 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-b-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box7 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-r-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box8 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-r-2 border-white aspect-square p-2 cursor-pointer">
+            </div>
+            <div
+                class="box box9 text-[3rem] font-Roboto text-white w-full flex justify-center items-center border-white aspect-square p-2">
+            </div>
+
+        </div>
+
+        <button
+            class="btn text-white absolute left-1/2 bottom-[3rem] translate-x-[-50%] font-Roboto bg-white bg-opacity-[0.15] rounded-xl border-[1px] border-white px-8 py-2 transition-all duration-200">New
+            Game</button>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
